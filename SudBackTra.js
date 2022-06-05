@@ -8,7 +8,8 @@ function InsertDat(){
       var tdata=document.createElement("td");
       var dat=document.createTextNode(j);
       tdata.appendChild(dat);
+      trow.appendChild(tdata);
     }
-    trow.appendChild(tdata);
+    tabl.appendChild(trow);
   }
 }
